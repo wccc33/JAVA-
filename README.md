@@ -46,7 +46,7 @@ cpu.setSpeed(2200);
 System.out.println("CPU速度:"+cpu.getSpeed());
 ```
 ## 实验结果
-
+![实验结果截图]()
 ## 实验感想
 #### 体会到了修饰符private用法：private访问修饰符是限制性最大的一种访问修饰符，被声明为private的成员只能被此类中的其他成员访问，不能被外类看到，提高安全性，实现了数据封装的思想。cpu.setSpeed(2200)这句话中speed被private保护了起来，没法直接对它进行赋值，必须用使用private所在的程序中调用speed的方法对speed赋值。对类的封装也有了更深的理解。
 #### 关键词this与对象关联，用于指示当前对象，不可以出现在类方法中。
